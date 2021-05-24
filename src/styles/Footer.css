@@ -1,0 +1,17 @@
+.Home_footer {
+    height: 80px;
+    width: 65%;
+    margin:auto;
+    background-color : #4a0000;
+}
+
+.footer_text2{
+    text-align: right;
+    /* position: relative; */
+    right: 30px;
+    top:20px;
+    font-size: 20px;
+    color:white;
+    margin-top: 0px;
+    margin-right: 5px;
+}

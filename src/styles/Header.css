@@ -1,0 +1,91 @@
+.Home_header {
+    height : 170px;   
+}
+
+.header_con1 {
+    height:100px;
+    width: 65%;
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+}
+
+.con1_text {
+    width: 340px;
+    text-align:left;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color:#6a0000;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+._row {
+    display: flex;
+    flex-direction: row;
+}
+
+.korea {
+    height: 80px;
+    margin-top: 10px;
+    margin-left:  10px;
+    float: left;
+}
+
+.header_con2 {
+    height: 70px;
+    width: 65%;
+    margin: auto;
+    background-color: #6a0000;
+}
+/* 
+.login_button1,.login_button2 {
+    width: 120px;
+    height: 70px;
+    background-color:  #4a0000;
+    color: white;
+    border: 1px solid  #4a0000;
+    float: left;
+    overflow: auto;
+}
+
+.login_button1:hover,.login_button2:hover {
+    cursor: pointer;
+    background-color: #b03c2a;
+    color:  #4a0000;
+} */
+
+.mungu{
+    padding-right:10px;
+    font-size:20px;
+    bottom: 0.2px 
+}
+
+.btn {
+    color : white;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 3px;
+}
+._button{
+    text-align: left;
+    background: #9a0000;
+    margin: 2px;
+    border : 0;
+    outline : 0;
+}
+
+.right{
+    margin-left: 0px;
+}
+
+.row{
+    padding-top: 22px;
+    padding-left: 220px;
+    width: 300px;
+    display: flex;
+    flex : row;
+}
