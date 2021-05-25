@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Redirect } from "react-router";
 
 const INIT_USER = {
   email: "",
@@ -8,6 +9,7 @@ const INIT_USER = {
 const Login = () => {
   const [disabled, setDisabled] = useState(true);
   const [user, setUser] = useState(INIT_USER);
+  const [success, setSuccess] = useState(false);
 
   useEffect(() => {
     const isUser = Object.values(user).every((el) => Boolean(el));
@@ -20,10 +22,15 @@ const Login = () => {
     setUser({ ...user, [name]: value });
   }
 
+  if (success) {
+    return <Redirect to="/home" />;
+  }
+
   async function handleSubmit(event) {
     event.preventDefault();
     try {
-      alert("로그인!");
+      // alert("로그인!");
+      setSuccess(true);
     } catch (error) {
       // catchErrors(error, setError);
     } finally {
